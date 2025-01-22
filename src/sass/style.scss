@@ -75,7 +75,7 @@ body {
         margin: 1rem 0;
 
         &::before {
-          content: url("images/icon-success.svg");
+          content: url("../images/icon-success.svg");
           color: var(--tomato);
           position: absolute;
           scale: 0.4;
@@ -134,7 +134,7 @@ body {
     }
 
     .sign-up-img {
-      background-image: url("./images/illustration-sign-up-desktop.svg");
+      background-image: url("../images/illustration-sign-up-desktop.svg");
       background-size: cover;
       aspect-ratio: 400 / 593;
       grid-area: image;
@@ -166,7 +166,8 @@ body {
       }
 
       .sign-up-img {
-        display: url("./images/illustration-sign-up-mobile.svg");
+        background-image: url("../images/illustration-sign-up-mobile.svg");
+        aspect-ratio: 375 / 284;
       }
     }
   }
