@@ -134,7 +134,7 @@ body {
     }
 
     .sign-up-img {
-      background-image: url("images/illustration-sign-up-desktop.svg");
+      background-image: url("./images/illustration-sign-up-desktop.svg");
       background-size: cover;
       aspect-ratio: 400 / 593;
       grid-area: image;
@@ -166,7 +166,7 @@ body {
       }
 
       .sign-up-img {
-        display: url("images/illustration-sign-up-mobile.svg");
+        display: url("./images/illustration-sign-up-mobile.svg");
       }
     }
   }
