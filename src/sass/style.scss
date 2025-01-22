@@ -2,6 +2,7 @@
 
 :root {
   --tomato: hsl(4, 100%, 67%);
+  --error: hsl(5, 100%, 95%);
   --darkSlateGrey: hsl(234, 29%, 20%);
   --charcoalGrey: hsl(235, 18%, 26%);
   --grey: hsl(231, 7%, 60%);
@@ -109,6 +110,8 @@ body {
           &.submitted:invalid {
             border: none;
             outline: 3px solid var(--tomato);
+            color: var(--tomato);
+            background: var(--error);
           }
         }
 
@@ -176,7 +179,7 @@ body {
 
       .sign-up-img {
         background-image: url("../images/illustration-sign-up-mobile.svg");
-        aspect-ratio: 375 / 284;
+        aspect-ratio: 375 / 400;
       }
     }
   }
