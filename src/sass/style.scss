@@ -99,8 +99,17 @@ body {
             }
           }
         }
-        #email:invalid {
-          outline: 2px solid var(--tomato);
+        #email {
+          outline: none;
+
+          &:focus {
+            border: 2px solid var(--grey);
+          }
+
+          &.submitted:invalid {
+            border: none;
+            outline: 3px solid var(--tomato);
+          }
         }
 
         input {

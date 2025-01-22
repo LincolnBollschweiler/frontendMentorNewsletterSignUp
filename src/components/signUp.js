@@ -7,9 +7,11 @@ export const signUp = () => {
       const data = Object.fromEntries(new FormData(e.target));
       const valid = pattern.test(data.email);
       if (!valid) {
+        $("#email").addClass("submitted");
         $("#email-error").show();
         return;
       }
+      $("#email").removeClass("submitted");
       $("#userEmail").text(data.email);
       $(".sign-up").hide();
       $(".thank-you").show();
