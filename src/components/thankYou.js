@@ -9,7 +9,8 @@ export const thankYou = () => {
   return `
     <div class="card thank-you">
         <div class="card-body flex">
-            <h1>Thank you for subscribing!</h1>
+            <img width="60" src="images/icon-success.svg" alt="Success" />
+            <h1 style="line-height: 0.9; margin-top: 20px;">Thanks for subscribing!</h1>
             <p>A confirmation email has been sent to <strong><span id="userEmail"></span></strong>. Please open it and click the button inside to confirm your subscription.</p>
             <button id="back-to-sign-up" type="button">Back to sign up</button>
         </div>
